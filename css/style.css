@@ -41,6 +41,9 @@ font-size: 18px;
 font-weight: 700;
 padding: 17px 55px;
 margin-top: 33px;
+display: inline-block;
+text-decoration: none;
+
 }
 
 header small {
@@ -155,6 +158,8 @@ margin-top: 0;
 }
 
 .footer-button {
+	text-decoration: none;
+	
 	padding: 12px 40px;
 	display: inline-block;
 	border-radius: 50px;
