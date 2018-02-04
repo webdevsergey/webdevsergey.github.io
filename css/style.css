@@ -43,6 +43,13 @@ padding: 17px 55px;
 margin-top: 33px;
 display: inline-block;
 text-decoration: none;
+-webkit-transition: 02c;
+-o-transition: 02c;
+transition: 02c;
+}
+
+.header-button:hover {
+	box-shadow: none;
 
 }
 
@@ -159,7 +166,6 @@ margin-top: 0;
 
 .footer-button {
 	text-decoration: none;
-	
 	padding: 12px 40px;
 	display: inline-block;
 	border-radius: 50px;
@@ -167,6 +173,14 @@ margin-top: 0;
 	background-color: transparent;
 	color: #deedfe;
 	font-size: 18px;
+	-webkit-transition: 0.2em;
+	-o-transition: 0.2em;
+	transition: 0.2em;
+}
+
+.footer-button:hover {
+	background-color: #fff;
+	color: #3a7dfd;
 }
 
 @media (max-width: 1200px) {
